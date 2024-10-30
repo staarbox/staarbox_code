@@ -1,106 +1,36 @@
-# UltraBox
+# Starbox
 
-UltraBox is an online tool for sketching and sharing instrumental music.
-You can find it [here](https://ultraabox.github.io).
-It is a modification of [JummBox](https://github.com/jummbus/jummbox), which inturn is a modification of the [original BeepBox](https://beepbox.co).
+An Ultrabox mod, or should i say, fork.
 
-The goal of UltraBox is to combine every single beepbox mod into one. Feel free to contribute!
+Starbox is a mod of Ultrabox which is a mod of JummBox which is a mod of Beepbox.
 
+----------Information-----------
 
-All song data is packaged into the URL at the top of your browser. When you make
-changes to the song, the URL is updated to reflect your changes. When you are
-satisfied with your song, just copy and paste the URL to save and share your
-song!
+A VERY fun Ultrabox mod with some stuff.
 
-UltraBox, as well as the beepmods which it's based on, are free projects. If you ever feel so inclined, please support the original creator, [John Nesky](http://www.johnnesky.com/), via
-[PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QZJTX9GRYEV9N&currency_code=USD)!
+or basically a very chaotic Ultrabox mod with chaos
 
-## Compiling
+------------Extra-------------
 
-The compilation procedure is identical to the repository for BeepBox. I will include the excerpt on compiling from that page's readme below for convenience:
+WE HAVE A GUILDED!!!!!
+just answer the questions and we will try and accept the application
 
-The source code is available under the MIT license. The code is written in
-[TypeScript](https://www.typescriptlang.org/), which requires
-[node & npm](https://www.npmjs.com/get-npm), so install those first. Then to
-build this project, open a command line ([Git Bash](https://gitforwindows.org/)) and run:
+https://www.guilded.gg/r/zzRz706LMl?i=Aen7kGW4
 
-```
-git clone https://github.com/ultraabox/ultrabox_typescript
-cd ultrabox_typescript
-npm install
-npm run build
-```
+------------Notes-------------
 
-JummBox (and by extension, Ultrabox) makes a divergence from BeepBox that necessitates an additional dependency:
-rather than using the (rather poor) default HTML select implementation, the custom
-library [select2](https://select2.org) is employed. select2 has an explicit dependency
-on [jQuery](https://jquery.com) as well, so you may need to install the following
-additional dependencies if they are not picked up automatically.
+THIS IS JUST THE SOURCE CODE! WE WILL STILL WORK ON staarbox.github.io!!!!!!!!!!!
 
-```
-npm install select2
-npm install @types/select2
-npm install @types/jquery
-```
+no copyright law stuff here since i'm lazy, read the MIT license of beepbox to see if you can actually make the mod. MIT licenses are for free-to-use stuff.
 
-## Code
+------About Starbox's Owners------
 
-The code is divided into several folders. This architecture is identical to BeepBox's.
+pretty sure i'm the scripter
 
-The [synth/](synth) folder has just the code you need to be able to play UltraBox
-songs out loud, and you could use this code in your own projects, like a web
-game. After compiling the synth code, open website/synth_example.html to see a
-demo using it. To rebuild just the synth code, run:
+KaidoKaiB's the organizer
 
-```
-npm run build-synth
-```
+# Compiling Starbox
 
-The [editor/](editor) folder has additional code to display the online song
-editor interface. After compiling the editor code, open website/index.html to
-see the editor interface. To rebuild just the editor code, run:
+it's the same as compiling every Beepbox mod.
 
-```
-npm run build-editor
-```
-
-The [player/](player) folder has a miniature song player interface for embedding
-on other sites. To rebuild just the player code, run:
-
-```
-npm run build-player
-```
-
-The [website/](website) folder contains index.html files to view the interfaces.
-The build process outputs JavaScript files into this folder.
-
-## Dependencies
-
-Most of the dependencies are listed in [package.json](package.json), although
-I'd like to note that UltraBox also has an indirect, optional dependency on
-[lamejs](https://www.npmjs.com/package/lamejs) via
-[jsdelivr](https://www.jsdelivr.com/) for exporting .mp3 files. If the user
-attempts to export an .mp3 file, UltraBox will direct the browser to download
-that dependency on demand.
-
-
-## Offline version
-
-If you'd like to BUILD the offline version, enter the following into the command line of your choice:
-```
-npm run build-offline
-```
-
-
-After building, you can then enter the following to run it for testing purposes:
-```
-cd offline
-npm run start
-```
-
-And to package, run (do ```npm run package-host``` for your host platform; you may need to run git bash as an administrator for non-host platforms):
-```
-cd offline
-npm run package
-```
-<!-- also something about installing electron and electron-packager as well -->
+i have no need to write this anyway...
